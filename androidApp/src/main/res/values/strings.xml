@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="boas_vindas_login">Feliz em te ver!</string>
+    <string name="subtitulo_login">Faça login para acessar</string>
+    <string name="email_id">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="forgot_password">Esqueçeu a senha?</string>
+    <string name="sign_in">Entrar</string>
+    <string name="txt_sign_in">
+        <font fgcolor="#000000">Não tem uma conta?</font> <font fgcolor="#2ac17e"> Inscrever-se</font>
+    </string>
+
+    <string name="todos">todos</string>
+    <string name="iniciado">iniciado</string>
+    <string name="cancelado">cancelado</string>
+    <string name="completo">completo</string>
+
+
+</resources>

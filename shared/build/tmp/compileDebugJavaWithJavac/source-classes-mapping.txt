@@ -1,0 +1,2 @@
+br/com/unifimes/coopermin/shared/BuildConfig.java
+ br.com.unifimes.coopermin.shared.BuildConfig
