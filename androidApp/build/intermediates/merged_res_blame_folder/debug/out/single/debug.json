@@ -16,20 +16,24 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_card.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\card.xml"
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_more.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_add_more.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rect_dotted_coupon_unselected.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rect_dotted_coupon_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_more.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_add_more.xml"
-    },
-    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_white_topcure.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_white_topcure.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_contract_24.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_contract_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_account_circle_green.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_account_circle_green.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
@@ -48,12 +52,16 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\circle_lightblue.xml"
     },
     {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_left_cure_blue.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_left_cure_blue.xml"
+    },
+    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_bg_rect_gray.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\bg_rect_gray.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_left_cure_blue.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_left_cure_blue.xml"
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_circle_unselect.xml.flat",
@@ -72,12 +80,20 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\adapter_produto_vertical.xml"
     },
     {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_settings.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_baseline_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\font_sf_pro_display_bold.otf.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\font\\sf_pro_display_bold.otf"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
@@ -208,8 +224,16 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_eye_vision.xml"
     },
     {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_home_24.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_home_24.xml"
+    },
+    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_contratos.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\activity_contratos.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_assignment_24.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_assignment_24.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_smile3.xml.flat",
@@ -230,6 +254,10 @@
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_address.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_icon_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_settings.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_settings.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_gray_box_home.xml.flat",
@@ -284,24 +312,20 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_left_cure_red.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_card_cinza.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\card_cinza.xml"
-    },
-    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_green_home.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_green_home.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_user.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_icon_user.xml"
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rect_gradient_blue.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rect_gradient_blue.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_whatsapp.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_whatsapp.xml"
     },
     {
-        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rect_gradient_blue.xml.flat",
-        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rect_gradient_blue.xml"
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_user.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_icon_user.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_green.xml.flat",
@@ -452,8 +476,16 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_one_side.xml"
     },
     {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_assignment_green.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_assignment_green.xml"
+    },
+    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_profile_box.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\rectangle_profile_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalhe_produto.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\activity_detalhe_produto.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_white_top_cure.xml.flat",
@@ -470,6 +502,10 @@
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_setting.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_icon_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_account_circle_24.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_adapter_produto_horizontal.xml.flat",
@@ -572,12 +608,20 @@
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\font\\sf_pro_display_medium.otf"
     },
     {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\font_rubik_bold.ttf.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\font\\rubik_bold.ttf"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_location_pin.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_icon_location_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_img_contract.png.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\img_contract.png"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_shape_payment.png.flat",
@@ -610,6 +654,10 @@
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tick.xml.flat",
         "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_tick.xml"
+    },
+    {
+        "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_home_green.xml.flat",
+        "source": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\src\\main\\res\\drawable\\ic_outline_home_green.xml"
     },
     {
         "merged": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_address_more.xml.flat",

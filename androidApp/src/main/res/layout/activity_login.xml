@@ -17,13 +17,11 @@
         android:src="@drawable/ic_back" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/textTheme01.bold"
+        android:layout_gravity="left"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="44.3dp"
-        android:fontFamily="@font/sf_pro_display_bold"
         android:text="@string/boas_vindas_login"
-        android:textColor="@color/txt_black"
         android:textSize="30sp" />
 
     <TextView

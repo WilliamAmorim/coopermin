@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profileback"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                style="@style/imagemPerfil"
+                android:id="@+id/img_profile"
+                android:layout_marginTop="26dp" />
+
+            <TextView
+                style="@style/textTheme02.bold"
+                android:id="@+id/textView_nome"
+                android:layout_marginTop="21dp"
+                android:text="William Amorim" />
+
+            <TextView
+                style="@style/textTheme01.semibold"
+                android:id="@+id/textView_email"
+                android:layout_marginTop="12dp"
+                android:text="williamamorimws@gmail.com" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/rectangle_profile_gray"
+                android:orientation="horizontal"
+                android:paddingLeft="14.4dp"
+                android:paddingTop="8.5dp"
+                android:paddingRight="11dp"
+                android:paddingBottom="7.5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_profile_gray" />
+
+                <TextView
+                    style="@style/textTheme01.semibold"
+                    android:id="@+id/textView_telefone"
+                    android:layout_marginLeft="6.4dp"
+                    android:text="(64) 99905-0359"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_white_top_cure"
+            android:clipToPadding="false"
+            android:elevation="8dp"
+            android:layout_marginTop="-40dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingBottom="50dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_icon_user" />
+
+                <TextView
+                    style="@style/textTheme01.semibold"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/profile_edit" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/light_silver" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_contrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_profile_box"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_outline_assignment_24"
+                    app:tint="#000000" />
+
+                <TextView
+                    style="@style/textTheme01.semibold"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/contrato" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/light_silver" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_icon_setting" />
+
+                <TextView
+                    style="@style/textTheme01.semibold"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/setting" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/light_silver" />
+            </LinearLayout>
+
+            <Button
+                style="@style/buttonRound"
+                android:id="@+id/button_sair"
+                android:text="@string/logout" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

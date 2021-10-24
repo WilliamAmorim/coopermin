@@ -11,6 +11,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.0.2")
     implementation ("com.makeramen:roundedimageview:2.3.0")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:${rootProject.extra["kotlin_version"]}")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 }
 
 android {
