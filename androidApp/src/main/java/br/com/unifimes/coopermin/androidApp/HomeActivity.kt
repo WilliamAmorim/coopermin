@@ -1,5 +1,6 @@
 package br.com.unifimes.coopermin.androidApp
 
+import android.app.Dialog
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
@@ -28,6 +29,8 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
     lateinit var txt_home : TextView
     lateinit var txt_contrato : TextView
     lateinit var txt_profile : TextView
+
+    var slideDialog: Dialog? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.navigation.Navigation
 import br.com.unifimes.coopermin.androidApp.R
 import com.makeramen.roundedimageview.RoundedImageView
 
@@ -36,6 +37,8 @@ class ProfileFragment : Fragment() {
         linearLayout_contrato = view.findViewById(R.id.linearLayout_contrato)
         linearLayout_config = view.findViewById(R.id.linearLayout_config)
         button_sair = view.findViewById(R.id.button_sair)
+
+
 
 
         return view;

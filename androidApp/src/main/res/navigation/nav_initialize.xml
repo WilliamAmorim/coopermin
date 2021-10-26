@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_initialize"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="br.com.unifimes.coopermin.androidApp.MainActivity"
+        android:label="MainActivity" >
+        <action
+            android:id="@+id/action_mainActivity_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_mainActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </activity>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="br.com.unifimes.coopermin.androidApp.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="br.com.unifimes.coopermin.androidApp.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+</navigation>

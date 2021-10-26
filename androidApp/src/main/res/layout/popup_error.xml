@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@drawable/rectangle_white_topcure">
+
+    <TextView
+        android:id="@+id/textView_popupTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26.7dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Titulo"
+        android:textColor="@color/txt_black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_popupSubTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20.7dp"
+        android:fontFamily="@font/sf_pro_display_semibold"
+        android:text="SubTitulo"
+        android:textColor="@color/txt_black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:paddingBottom="34dp">
+        <Button
+            android:id="@+id/button_sairPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rectangle_red_border"
+            android:fontFamily="@font/sf_pro_display_semibold"
+            android:paddingLeft="41.3dp"
+            android:paddingRight="41.7dp"
+            android:text="Fechar"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -52,7 +52,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginRight="30dp"
         android:background="@color/transparent"
-        android:drawableEnd="@drawable/ic_check_circle"
+
         android:fontFamily="@font/sf_pro_display_semibold"
         android:hint="example@dominio.com"
         android:inputType="textCapWords"

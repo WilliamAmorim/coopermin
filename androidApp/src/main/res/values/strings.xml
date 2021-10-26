@@ -34,8 +34,12 @@
     <string name="sem_internet_2">ugh! Algo não está certo com sua internet</string>
     <string name="agian">Recarregar</string>
 
+    <string name="titulo_error">algo deu errado :(</string>
+    <string name="preencha_corretamente_formulario">Preencha corretamente todos os campos para continuar</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 
 </resources>

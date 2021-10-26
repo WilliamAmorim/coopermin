@@ -16,10 +16,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity" />
-        <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
-        <activity android:name="br.com.unifimes.coopermin.androidApp.HomeActivity" >
+        <activity android:name="br.com.unifimes.coopermin.androidApp.HomeActivity" />
+        <activity android:name="br.com.unifimes.coopermin.androidApp.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
