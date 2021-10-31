@@ -1,5 +1,7 @@
 package br.com.unifimes.coopermin.androidApp
 
+import android.app.Activity
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.text.InputType
@@ -43,14 +45,23 @@ class LoginActivity : AppCompatActivity() {
         img_back.setOnClickListener { onBackPressed() }
 
         button_entrar.setOnClickListener(View.OnClickListener {
-            if(getValidateEmailFormat(editText_email)){
-
-            }else{
-                popup.showPopupError(this, getString(R.string.titulo_error),getString(R.string.preencha_corretamente_formulario))
+            if (getValidateEmailFormat(editText_email)) {
+                abrirActivity(this,HomeActivity()::class.java)
+            } else {
+                popup.showPopupError(
+                    this,
+                    getString(R.string.titulo_error),
+                    getString(R.string.preencha_corretamente_formulario)
+                )
             }
         })
 
         visualizarSenha()
+    }
+
+    fun abrirActivity(remetente: Activity, destino: Class<*>?) {
+        val intent = Intent(remetente, destino)
+        remetente.startActivity(intent)
     }
 
     /**

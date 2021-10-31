@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import br.com.unifimes.coopermin.androidApp.R
 import com.makeramen.roundedimageview.RoundedImageView
 
@@ -37,6 +38,14 @@ class ProfileFragment : Fragment() {
         linearLayout_contrato = view.findViewById(R.id.linearLayout_contrato)
         linearLayout_config = view.findViewById(R.id.linearLayout_config)
         button_sair = view.findViewById(R.id.button_sair)
+
+        linearLayout_contrato.setOnClickListener(View.OnClickListener {
+            findNavController().navigate(R.id.contratosActivity2)
+        })
+
+        linearLayout_config.setOnClickListener(View.OnClickListener {
+            findNavController().navigate(R.id.action_profileFragment_to_settingActivity)
+        })
 
 
 

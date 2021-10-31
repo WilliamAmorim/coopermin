@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_profile"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="br.com.unifimes.coopermin.androidApp.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_contratosActivity2"
+            app:destination="@id/contratosActivity2" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingActivity"
+            app:destination="@id/settingActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/contratosActivity2"
+        android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity"
+        android:label="activity_contratos"
+        tools:layout="@layout/activity_contratos" />
+    <activity
+        android:id="@+id/settingActivity"
+        android:name="br.com.unifimes.coopermin.androidApp.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
+</navigation>

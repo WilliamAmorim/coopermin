@@ -1,6 +1,11 @@
 [
   {
-    "name": "nav_initialize",
+    "name": "nav_home_associado",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_profile",
     "navigationXmlIds": [],
     "deepLinks": []
   }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\willi\\AndroidStudioProjects\\Coopermin\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\willi\\.gradle\\caches\\transforms-2\\files-2.1\\5520a2dc29d0b0b042b5c8158045f054\\navigation-ui-2.2.2\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\willi\\.gradle\\caches\\transforms-2\\files-2.1\\320e43383c3d57899b9f01c23beb69e6\\navigation-ui-2.3.5\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

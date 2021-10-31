@@ -10,7 +10,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import br.com.unifimes.coopermin.androidApp.fragment.HomeFragment
-import br.com.unifimes.coopermin.androidApp.fragment.ProfileFragment
+import br.com.unifimes.coopermin.androidApp.host.HostHomeAssociado
+import br.com.unifimes.coopermin.androidApp.host.HostProfile
 
 class HomeActivity : AppCompatActivity(), View.OnClickListener{
 
@@ -60,6 +61,8 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
         img_home.setImageResource(R.drawable.ic_outline_home_green)
         txt_home.setTextColor(Color.parseColor("#2ac17e"))
 
+        replace_fragment(HostHomeAssociado())
+
     }
 
     override fun onClick(p0: View?) {
@@ -85,7 +88,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
             img_circle1.setVisibility(View.VISIBLE)
             img_home.setImageResource(R.drawable.ic_outline_home_green)
             txt_home.setTextColor(Color.parseColor("#2ac17e"))
-            replace_fragment(HomeFragment())
+            replace_fragment(HostHomeAssociado())
         }else{
             img_circle1.setVisibility(View.GONE)
             img_home.setImageResource(R.drawable.ic_outline_home_24)
@@ -110,9 +113,9 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
             img_circle3.setVisibility(View.VISIBLE)
             img_profile.setImageResource(R.drawable.ic_outline_account_circle_green)
             txt_profile.setTextColor(Color.parseColor("#2ac17e"))
-            replace_fragment(ProfileFragment())
+            replace_fragment(HostProfile())
         }else{
-            img_circle3.setVisibility(View.GONE)
+            img_circle3.setVisibility(View.GONE);
             img_profile.setImageResource(R.drawable.ic_outline_account_circle_24)
             txt_profile.setTextColor(Color.parseColor("#757575"))
         }

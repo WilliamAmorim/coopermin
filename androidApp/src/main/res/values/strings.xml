@@ -37,9 +37,13 @@
     <string name="titulo_error">algo deu errado :(</string>
     <string name="preencha_corretamente_formulario">Preencha corretamente todos os campos para continuar</string>
 
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="terms_amp_conditions">Termos e Condições</string>
+    <string name="about_us">Sobre Nós</string>
+    <string name="support">Apoio, Suporte</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 
 </resources>

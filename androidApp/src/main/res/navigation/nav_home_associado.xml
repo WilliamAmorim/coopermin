@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home_associado"
+    app:startDestination="@id/homeAssociadoFragment">
+
+    <fragment
+        android:id="@+id/homeAssociadoFragment"
+        android:name="br.com.unifimes.coopermin.androidApp.fragment.HomeAssociadoFragment"
+        android:label="fragment_home_associado"
+        tools:layout="@layout/fragment_home_associado" >
+        <action
+            android:id="@+id/action_homeAssociadoFragment_to_contratosActivity"
+            app:destination="@id/contratosActivity" />
+        <action
+            android:id="@+id/action_homeAssociadoFragment_to_settingActivity2"
+            app:destination="@id/settingActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/contratosActivity"
+        android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity"
+        android:label="activity_contratos"
+        tools:layout="@layout/activity_contratos" />
+    <activity
+        android:id="@+id/settingActivity2"
+        android:name="br.com.unifimes.coopermin.androidApp.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
+</navigation>

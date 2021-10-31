@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeAssociadoFragment">
+
+    <include layout="@layout/cabecalho_home" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:focusable="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/li_home"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="35dp">
+
+            <LinearLayout
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp">
+
+                <FrameLayout
+
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:background="@drawable/rect_gradient_blue" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:background="@drawable/shape_payment" />
+
+                    <TextView
+                        android:id="@+id/txt_expireDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginRight="15.1dp"
+                        android:layout_marginBottom="10.8dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="27 de outubro"
+                        android:textColor="#ABFFFFFF"
+                        android:textSize="13sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="15.1dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:text="Contratos\nAbertos"
+                        android:textColor="@color/white"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginRight="15.1dp"
+                        android:layout_marginBottom="28dp"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="55sp" />
+
+
+                </FrameLayout>
+                <FrameLayout
+
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:background="@drawable/rect_gradient_green" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:background="@drawable/shape_payment" />
+
+                    <TextView
+                        android:id="@+id/txt_expireDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginRight="15.1dp"
+                        android:layout_marginBottom="10.8dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="27 de outubro"
+                        android:textColor="#ABFFFFFF"
+                        android:textSize="13sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="15.1dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:text="Contratos\nConcluidos"
+                        android:textColor="@color/white"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginRight="15.1dp"
+                        android:layout_marginBottom="28dp"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="55sp" />
+
+
+                </FrameLayout>
+
+
+
+<!--                <LinearLayout-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:background="@drawable/dotted_line_rect_green"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:paddingLeft="12dp"-->
+<!--                android:paddingTop="9dp"-->
+<!--                android:paddingRight="12dp"-->
+<!--                android:paddingBottom="9dp">-->
+
+<!--                <TextView-->
+<!--                    style="@style/textTheme01.semibold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_marginLeft="14dp"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:text="10" />-->
+
+<!--            <TextView-->
+<!--                style="@style/textTheme01.semibold"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="Contratos\nAbertos" />-->
+
+<!--        </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp"-->
+<!--                android:background="@drawable/rectangle_gray_border_cure"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:paddingLeft="12dp"-->
+<!--                android:paddingTop="9dp"-->
+<!--                android:paddingRight="12dp"-->
+<!--                android:paddingBottom="9dp">-->
+
+<!--                <TextView-->
+
+<!--                    style="@style/textTheme01.semibold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_marginLeft="14dp"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:text="8" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/textTheme01.semibold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_marginLeft="14dp"-->
+<!--                    android:text="Contratos\nFechados" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20.3dp"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Operações"
+                android:textColor="@color/txt_black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:visibility="visible"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:layout_marginHorizontal="8dp"
+                android:paddingBottom="8dp">
+
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Associados"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearLayout_openContrato"
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle_profile_box"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_outline_assignment_24"
+                        app:tint="#000000" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Contratos"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Produtos"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:layout_marginHorizontal="8dp"
+                android:paddingBottom="8dp">
+
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Associados"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Associados"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_user" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Associados"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

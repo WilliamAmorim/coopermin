@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_initialize.xml","javaFiles":["br.com.unifimes.coopermin.androidApp.MainActivityDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_profile.xml","javaFiles":["br.com.unifimes.coopermin.androidApp.fragment.ProfileFragmentDirections"]},{"navFile":"src\\main\\res\\navigation\\nav_home_associado.xml","javaFiles":["br.com.unifimes.coopermin.androidApp.fragment.HomeAssociadoFragmentDirections"]}]

@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="br.com.unifimes.coopermin.androidApp.SettingActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity" />
