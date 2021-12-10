@@ -22,7 +22,6 @@
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
             android:clipToPadding="false"
             android:orientation="vertical"
             android:paddingBottom="35dp">
@@ -36,7 +35,6 @@
                 android:paddingBottom="5dp">
 
                 <FrameLayout
-
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:layout_width="155dp"
@@ -221,38 +219,6 @@
                 android:paddingBottom="8dp">
 
                 <LinearLayout
-                    android:elevation="5dp"
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="95dp"
-                    android:layout_marginHorizontal="5dp"
-                    android:background="@drawable/rectangle_white"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:paddingLeft="12dp"
-                    android:paddingTop="9dp"
-                    android:paddingRight="12dp"
-                    android:paddingBottom="9dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_user" />
-
-                    <TextView
-                        android:id="@+id/txt_home"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="8.2dp"
-                        android:fontFamily="@font/sf_pro_display_regular"
-                        android:text="Associados"
-                        android:textColor="@color/dark_gray"
-                        android:textSize="13sp" />
-
-                </LinearLayout>
-                <LinearLayout
                     android:id="@+id/linearLayout_openContrato"
                     android:elevation="5dp"
                     android:layout_weight="1"
@@ -289,6 +255,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/linearLayout_openAssociado"
                     android:elevation="5dp"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
@@ -315,7 +282,42 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8.2dp"
                         android:fontFamily="@font/sf_pro_display_regular"
-                        android:text="Produtos"
+                        android:text="Associados"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/rectangle_white"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="9dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle_profile_box"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_outline_agriculture_24"
+                        app:tint="#000000" />
+
+                    <TextView
+                        android:id="@+id/txt_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8.2dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Produção"
                         android:textColor="@color/dark_gray"
                         android:textSize="13sp" />
 
@@ -351,7 +353,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_user" />
+                        android:background="@drawable/rectangle_profile_box"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_outline_info_24"
+                        app:tint="#000000" />
 
                     <TextView
                         android:id="@+id/txt_home"
@@ -360,7 +365,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8.2dp"
                         android:fontFamily="@font/sf_pro_display_regular"
-                        android:text="Associados"
+                        android:text="attr/?????"
                         android:textColor="@color/dark_gray"
                         android:textSize="13sp" />
 
@@ -383,7 +388,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_user" />
+                        android:background="@drawable/rectangle_profile_box"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_outline_info_24"
+                        app:tint="#000000" />
 
                     <TextView
                         android:id="@+id/txt_home"
@@ -392,7 +400,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8.2dp"
                         android:fontFamily="@font/sf_pro_display_regular"
-                        android:text="Associados"
+                        android:text="attr/?????"
                         android:textColor="@color/dark_gray"
                         android:textSize="13sp" />
 
@@ -415,7 +423,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_user" />
+                        android:background="@drawable/rectangle_profile_box"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_outline_info_24"
+                        app:tint="#000000" />
 
                     <TextView
                         android:id="@+id/txt_home"
@@ -424,7 +435,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8.2dp"
                         android:fontFamily="@font/sf_pro_display_regular"
-                        android:text="Associados"
+                        android:text="attr/?????"
                         android:textColor="@color/dark_gray"
                         android:textSize="13sp" />
 

@@ -6,8 +6,67 @@
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".ContratosActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="10dp"
+        android:background="@drawable/rectangle_white_bottom_cure"
+        android:paddingBottom="12dp">
 
     <include layout="@layout/toolbar_order_search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16.7dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_search_gray"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="13dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_search_gray"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Buscar Contratos"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:textSize="14sp"
+                android:layout_marginLeft="13.6dp"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:textColorHint="@color/serch_gray"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linearLayout_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/rectangle_search_gray">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_filter"/>
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +126,7 @@
             android:textColor="@color/txt_black"
             android:textSize="14sp" />
     </LinearLayout>
-
+    </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

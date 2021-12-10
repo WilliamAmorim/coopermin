@@ -11,18 +11,21 @@
         <font fgcolor="#000000">Não tem uma conta?</font> <font fgcolor="#2ac17e"> Inscrever-se</font>
     </string>
 
-    <string name="todos">todos</string>
-    <string name="iniciado">iniciado</string>
-    <string name="cancelado">cancelado</string>
-    <string name="completo">completo</string>
+    <string name="todos">Todos</string>
+    <string name="iniciado">Aberto</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="completo">Concluido</string>
 
     <string name="detalhe_produto">Detalhes do produto</string>
     <string name="produto_semelhante">Produtos semelhantes</string>
+    <string name="produtores">Produtores</string>
     <string name="see_all">Ver todos</string>
     <string name="buy">Comprar</string>
 
     <string name="home">Inicio</string>
     <string name="contrato">Contratos</string>
+    <string name="chart">Graficos</string>
+    <string name="notificacoes">Notificações</string>
     <string name="profile">Perfil</string>
 
     <string name="profile_edit">Editar Perfil</string>
@@ -32,10 +35,14 @@
 
     <string name="sem_internet">Sem conexão de internet</string>
     <string name="sem_internet_2">ugh! Algo não está certo com sua internet</string>
+    <string name="sem_internet_3">Verifique sua conexão de internet e tende novamente mais tarde</string>
     <string name="agian">Recarregar</string>
 
     <string name="titulo_error">algo deu errado :(</string>
+    <string name="mensagem_error">Ocorreu um erro tente novamente mais tarde</string>
+    <string name="mensagem_error_senha">Senha Errada</string>
     <string name="preencha_corretamente_formulario">Preencha corretamente todos os campos para continuar</string>
+
 
     <string name="privacy_policy">Política de Privacidade</string>
     <string name="terms_amp_conditions">Termos e Condições</string>

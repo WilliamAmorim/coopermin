@@ -9,7 +9,13 @@ import android.util.Patterns
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import br.com.unifimes.coopermin.androidApp.api.HttpHelper
+import br.com.unifimes.coopermin.androidApp.api.LoginApi
+import br.com.unifimes.coopermin.androidApp.controller.LoginControllerAndroid
 import br.com.unifimes.coopermin.androidApp.utils.Popup
+import br.com.unifimes.coopermin.androidApp.utils.Utils
+import br.com.unifimes.coopermin.shared.controller.LoginController
+import org.jetbrains.anko.doAsync
 
 
 private lateinit var img_back: ImageView
@@ -45,23 +51,20 @@ class LoginActivity : AppCompatActivity() {
         img_back.setOnClickListener { onBackPressed() }
 
         button_entrar.setOnClickListener(View.OnClickListener {
-            if (getValidateEmailFormat(editText_email)) {
-                abrirActivity(this,HomeActivity()::class.java)
-            } else {
-                popup.showPopupError(
-                    this,
-                    getString(R.string.titulo_error),
-                    getString(R.string.preencha_corretamente_formulario)
-                )
+            popup.showPopupLoaging(this)
+
+            val resposta = LoginControllerAndroid().logar(editText_email, editText_password)
+
+            popup.close()
+
+            if(!resposta){
+                popup.showPopupError(this,getString(R.string.titulo_error),getString(R.string.mensagem_error))
+            }else{
+                Utils().abrirActivity(this,HomeActivity::class.java)
             }
         })
 
         visualizarSenha()
-    }
-
-    fun abrirActivity(remetente: Activity, destino: Class<*>?) {
-        val intent = Intent(remetente, destino)
-        remetente.startActivity(intent)
     }
 
     /**
@@ -83,7 +86,6 @@ class LoginActivity : AppCompatActivity() {
             editText_password.setSelection(editText_password.length())
         }
     }
-
 
     /**
      * Validar se o formate de email digitado pelo usuario esta certo
@@ -108,18 +110,5 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
-    }
-
-    private fun getValidateEmailFormat(txtEmail: EditText): Boolean{
-        var retorno = Patterns.EMAIL_ADDRESS.matcher(txtEmail.getText().toString()).matches()
-        if(retorno){
-            txtEmail.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_check_circle, 0);
-            txtEmail.setTextColor(Color.parseColor("#000000"))
-        }else{
-            txtEmail.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
-            txtEmail.setTextColor(Color.parseColor("#f22c2c"))
-        }
-        return retorno
-
     }
 }

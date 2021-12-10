@@ -16,15 +16,24 @@
         <action
             android:id="@+id/action_profileFragment_to_settingActivity"
             app:destination="@id/settingActivity" />
+        <action
+            android:id="@+id/action_profileFragment_to_detalhesContratoFragment"
+            app:destination="@id/detalhesContratoFragment" />
     </fragment>
     <activity
         android:id="@+id/contratosActivity2"
         android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity"
         android:label="activity_contratos"
-        tools:layout="@layout/activity_contratos" />
+        tools:layout="@layout/activity_contratos" >
+    </activity>
     <activity
         android:id="@+id/settingActivity"
         android:name="br.com.unifimes.coopermin.androidApp.SettingActivity"
         android:label="activity_setting"
         tools:layout="@layout/activity_setting" />
+    <fragment
+        android:id="@+id/detalhesContratoFragment"
+        android:name="br.com.unifimes.coopermin.androidApp.fragment.DetalhesContratoFragment"
+        android:label="fragment_detalhes_contrato"
+        tools:layout="@layout/fragment_detalhes_contrato" />
 </navigation>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [:shared] C:\Users\willi\AndroidStudioProjects\Coopermin\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\d066d0503c913b8e2a69fedcd2c8ef4d\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\320e43383c3d57899b9f01c23beb69e6\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -60,25 +60,33 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\willi\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\d1047958b7cd05707e1587cf907daa5b\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\63accf0ac9f9c7e37cebb8b3479f09b5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\b7e0a61d0e6822cacb4ea7ef8939dfd2\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:3:5-51
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\d72861d6d51477f1b3f1b0cc98fcf875\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\d72861d6d51477f1b3f1b0cc98fcf875\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\be1528ace4fb873bfa51fea09b38b747\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
@@ -90,45 +98,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\wi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\71a6958f8d76f10a35384eef5f838b6c\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:8:9-40
-activity#br.com.unifimes.coopermin.androidApp.SettingActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:9-62
-	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:19-50
-activity#br.com.unifimes.coopermin.androidApp.MainActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:9-50
-	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:19-47
-activity#br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:9-60
-	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:19-57
-activity#br.com.unifimes.coopermin.androidApp.ContratosActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:9-55
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:9-40
+activity#br.com.unifimes.coopermin.androidApp.AssociadoActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:9-64
 	android:name
 		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:19-52
+activity#br.com.unifimes.coopermin.androidApp.DetalheContratoActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:9-61
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:19-58
+activity#br.com.unifimes.coopermin.androidApp.SettingActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:9-53
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:19-50
+activity#br.com.unifimes.coopermin.androidApp.MainActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:9-50
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:19-47
+activity#br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:9-60
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:19-57
+activity#br.com.unifimes.coopermin.androidApp.ContratosActivity
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:17:9-55
+	android:name
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:17:19-52
 activity#br.com.unifimes.coopermin.androidApp.HomeActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:9-50
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:9-50
 	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:19-47
 activity#br.com.unifimes.coopermin.androidApp.LoginActivity
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:19-48
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:19:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml

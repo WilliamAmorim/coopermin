@@ -10,48 +10,61 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:5-21:19
-12        android:allowBackup="true"
-12-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\71a6958f8d76f10a35384eef5f838b6c\core-1.3.1\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:supportsRtl="true"
-16-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:7:9-35
-17        android:testOnly="true"
-18        android:theme="@style/AppTheme" >
-18-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:8:9-40
-19        <activity android:name="br.com.unifimes.coopermin.androidApp.SettingActivity" />
-19-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:9-62
-19-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:19-50
-20        <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
-20-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:9-50
-20-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:19-47
-21        <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity" />
-21-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:9-60
-21-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:19-57
-22        <activity android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity" />
-22-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:9-55
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:8:5-26:19
+15        android:allowBackup="true"
+15-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\willi\.gradle\caches\transforms-2\files-2.1\71a6958f8d76f10a35384eef5f838b6c\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:supportsRtl="true"
+19-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="br.com.unifimes.coopermin.androidApp.AssociadoActivity" />
+22-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:9-64
 22-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:12:19-52
-23        <activity android:name="br.com.unifimes.coopermin.androidApp.HomeActivity" />
-23-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:9-50
-23-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:19-47
-24        <activity android:name="br.com.unifimes.coopermin.androidApp.LoginActivity" >
-24-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:9-20:20
-24-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:19-48
-25            <intent-filter>
-25-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:17-69
-26-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:17-77
-28-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
+23        <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheContratoActivity" />
+23-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:9-61
+23-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:13:19-58
+24        <activity android:name="br.com.unifimes.coopermin.androidApp.SettingActivity" />
+24-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:9-53
+24-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:14:19-50
+25        <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
+25-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:9-50
+25-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:15:19-47
+26        <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity" />
+26-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:9-60
+26-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:16:19-57
+27        <activity android:name="br.com.unifimes.coopermin.androidApp.ContratosActivity" />
+27-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:17:9-55
+27-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:17:19-52
+28        <activity android:name="br.com.unifimes.coopermin.androidApp.HomeActivity" />
+28-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:9-50
+28-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:18:19-47
+29        <activity android:name="br.com.unifimes.coopermin.androidApp.LoginActivity" >
+29-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:19:9-25:20
+29-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:19:19-48
+30            <intent-filter>
+30-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:21:25-66
 32
-33</manifest>
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Users\willi\AndroidStudioProjects\Coopermin\androidApp\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

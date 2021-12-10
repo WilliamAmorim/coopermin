@@ -11,5 +11,8 @@ public class HomeAssociadoFragmentDirections private constructor() {
 
     public fun actionHomeAssociadoFragmentToSettingActivity2(): NavDirections =
         ActionOnlyNavDirections(R.id.action_homeAssociadoFragment_to_settingActivity2)
+
+    public fun actionHomeAssociadoFragmentToAssociadoActivity(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_homeAssociadoFragment_to_associadoActivity)
   }
 }

@@ -29,6 +29,7 @@
         android:layout_height="15.8dp"
         android:layout_marginRight="16.6dp"
         android:layout_gravity="end"
+        android:visibility="gone"
         android:src="@drawable/ic_search_gray"
         android:tint="@color/txt_black"/>
 </androidx.appcompat.widget.Toolbar>

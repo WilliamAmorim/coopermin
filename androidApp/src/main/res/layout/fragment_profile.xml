@@ -148,6 +148,43 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayout_contrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_profile_box"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_baseline_notifications_24"
+                    app:tint="#000000" />
+
+                <TextView
+                    style="@style/textTheme01.semibold"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/notificacoes" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/light_silver" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/linearLayout_config"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

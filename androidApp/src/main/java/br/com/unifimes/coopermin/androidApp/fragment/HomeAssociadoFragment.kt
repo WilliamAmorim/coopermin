@@ -18,7 +18,12 @@ class HomeAssociadoFragment : Fragment() {
         var view = inflater.inflate(R.layout.fragment_home_associado, container, false)
 
         var linearLayout_openContrato = view.findViewById<LinearLayout>(R.id.linearLayout_openContrato)
+        var linearLayout_openAssociado = view.findViewById<LinearLayout>(R.id.linearLayout_openAssociado)
         var imageView_config = view.findViewById<ImageView>(R.id.imageView_config)
+
+        linearLayout_openAssociado.setOnClickListener(View.OnClickListener {
+            findNavController().navigate(R.id.action_homeAssociadoFragment_to_associadoActivity)
+        })
 
         linearLayout_openContrato.setOnClickListener(View.OnClickListener {
             findNavController().navigate(R.id.action_homeAssociadoFragment_to_contratosActivity)

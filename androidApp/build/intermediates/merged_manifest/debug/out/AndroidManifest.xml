@@ -8,6 +8,9 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -16,6 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="br.com.unifimes.coopermin.androidApp.AssociadoActivity" />
+        <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheContratoActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.SettingActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.MainActivity" />
         <activity android:name="br.com.unifimes.coopermin.androidApp.DetalheProdutoActivity" />

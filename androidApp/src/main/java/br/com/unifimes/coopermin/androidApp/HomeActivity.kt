@@ -99,11 +99,11 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
     fun contrato(ativo: Boolean?){
         if(ativo == true) {
             img_circle2.setVisibility(View.VISIBLE)
-            img_contrato.setImageResource(R.drawable.ic_outline_assignment_green)
+            img_contrato.setImageResource(R.drawable.ic_round_show_chart_grenn)
             txt_contrato.setTextColor(Color.parseColor("#2ac17e"))
         }else{
             img_circle2.setVisibility(View.GONE)
-            img_contrato.setImageResource(R.drawable.ic_outline_contract_24)
+            img_contrato.setImageResource(R.drawable.ic_round_show_chart_24)
             txt_contrato.setTextColor(Color.parseColor("#757575"))
         }
     }
